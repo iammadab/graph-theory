@@ -54,12 +54,6 @@ impl Display for HanoiState {
     }
 }
 
-//impl Node for HanoiState {
-//    fn neighbors(&self) -> impl Iterator<Item = &crate::graph::NodeId> {
-//        todo!()
-//    }
-//}
-
 #[cfg(test)]
 mod test {
     use super::HanoiState;
